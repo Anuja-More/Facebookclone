@@ -35,7 +35,7 @@ function Sidebar({ user }) {
                 <p class="dot">·</p>
                 <p>More</p>
                 <p class="dot">·</p>
-                <p>Facebook © 2020</p>
+                <p>Facebook by Anuja More © 2021</p>
             </div>
         </div>
     )
