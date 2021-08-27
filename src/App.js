@@ -34,8 +34,9 @@ const App = () => {
             <Register />
           </Route>
           <Route path="/:username/:uid">
+       <HomeHeader user={user} />
             <Profile user={user} />
-            <HomeHeader user={user} />
+//             <HomeHeader user={user} />
           </Route>
 
           <Route path="/">
