@@ -9,7 +9,7 @@ import Profile from "./Profile";
 import Sidebar2 from "./Sidebar2";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { auth } from "./Firebase";
-import PostGif from "./PostGif";
+// import PostGif from "./PostGif";
 
 const App = () => {
   const [user, setUser] = useState([]);
@@ -36,7 +36,7 @@ const App = () => {
           <Route path="/:username/:uid">
        <HomeHeader user={user} />
             <Profile user={user} />
-//             <HomeHeader user={user} />
+            {/* <HomeHeader user={user} /> */}
           </Route>
 
           <Route path="/">
